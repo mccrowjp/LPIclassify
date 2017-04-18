@@ -1,7 +1,7 @@
 # LPIclassify
-#### Taxonomic classification using an improved Lineage Probabilty Index (LPI)
+#### Taxonomic classification using an extended Lineage Probabilty Index (LPI)
 
-*Under active development. Check back later for a stable version.*
+### *Under active development. Check back later for a stable version...*
 
 Usage
 -----
@@ -13,7 +13,9 @@ Usage
 | create_database.pl | Create initial peptide taxonomy database |
 | update_database.py | Update an existing database, only adds new data |
 
+
 NOTE: the create database is written in Perl because it handles database transactions appropriately without the need for external dependencies, such as APSW. The update database utility checks every field before inserting new data and will run much slower than the create utility.
+
 
 ```
 LPIclassify v0.1 (Apr 5, 2017)
@@ -31,7 +33,7 @@ Usage: LPIclassify -i (options)
 
 Lineage Probabilty Index (LPI)
 ------------------------------
-See Podell, S and Gaasterland, T (2007). [DarkHorse: A method for genome-wide prediction of horizontal gene transfer](http://genomebiology.com/2007/8/2/R16). Genome Biology 8(2):R16
+For the original description of LPI, see: Podell, S and Gaasterland, T (2007). [DarkHorse: A method for genome-wide prediction of horizontal gene transfer](http://genomebiology.com/2007/8/2/R16). Genome Biology 8(2):R16
 
 Calculation of LPI is modified here to include:
 1. Logistic proportion of top BLAST hits
