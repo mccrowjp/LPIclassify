@@ -1,7 +1,7 @@
 # LPIclassify
 #### Taxonomic classification using an extended Lineage Probabilty Index (LPI)
 
-### *Under active development. Check back later for a stable version...*
+### :bangbang: *Under active development. Check back later for a stable version...* :bangbang:
 
 Usage
 -----
